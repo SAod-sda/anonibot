@@ -5,6 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 TOKEN = "8417773265:AAF6y_yLSCfL94b3is63sK2YRBQP2b2FvfY"
 ADMIN_ID = 6580598992
 
+
 # === /start ===
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
